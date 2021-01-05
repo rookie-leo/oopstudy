@@ -10,10 +10,10 @@ public class Program {
 	public static void main(String args[]) {
 		
 		Locale.setDefault(Locale.US);
-		Scanner kb = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Enter radius: ");
-		double radius = kb.nextDouble();
+		double radius = sc.nextDouble();
 		
 		double c = Calculator.circumference(radius);
 		
@@ -23,7 +23,7 @@ public class Program {
 		System.out.printf("Volume: %.2f\n", v);
 		System.out.printf("PI value: %.2f\n", Calculator.PI);
 		
-		kb.close();
+		sc.close();
 	}
 	
 }
