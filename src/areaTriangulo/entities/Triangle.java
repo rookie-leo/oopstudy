@@ -1,4 +1,4 @@
-package entities;
+package areaTriangulo.entities;
 
 public class Triangle {
 

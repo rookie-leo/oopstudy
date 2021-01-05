@@ -1,9 +1,9 @@
-package application;
+package areaTriangulo.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Triangle;
+import areaTriangulo.entities.Triangle;
 
 public class Program {
 
