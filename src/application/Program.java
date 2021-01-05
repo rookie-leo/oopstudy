@@ -24,10 +24,10 @@ public class Program {
 		y.setB(kb.nextDouble()); 
 		y.setC(kb.nextDouble());
 		
-		double areaX = x.area(x.getA(), x.getB(), x.getC());
+		double areaX = x.area();
 		
 			
-		double areaY = y.area(y.getA(), y.getB(), y.getC());
+		double areaY = y.area();
 		
 		System.out.printf("Triangle X area: %.4f%n", areaX);
 		System.out.printf("Tirangle Y area: %.4f\n", areaY);
